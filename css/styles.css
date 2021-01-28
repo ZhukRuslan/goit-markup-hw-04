@@ -48,7 +48,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header .container {
@@ -204,7 +204,7 @@ img {
 
 /*-----ACTIVITY-----*/
 .activity  {
-    padding-bottom: 94px;
+    padding-bottom: 47px;
     
 }
 .activity-list {
@@ -229,6 +229,7 @@ img {
 
 /*-----TEAM-----*/
 .team {
+    padding-top: 47px;
     padding-bottom: 94px;
 }
 .team-list {
