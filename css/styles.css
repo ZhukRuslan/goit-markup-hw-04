@@ -204,7 +204,7 @@ img {
 
 /*-----ACTIVITY-----*/
 .activity  {
-    padding-bottom: 47px;
+    padding-bottom: 94px;
     
 }
 .activity-list {
@@ -228,10 +228,7 @@ img {
 /*-----AND ACTIVITY-----*/
 
 /*-----TEAM-----*/
-.team {
-    padding-top: 47px;
-    padding-bottom: 94px;
-}
+
 .team-list {
     display: flex;
     flex-wrap: wrap;
