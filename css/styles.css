@@ -131,7 +131,8 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #2F303A;
+    background-color: #C4C4C4;
+    
 }
 .container .hero-title {
     margin-bottom: 30px;
@@ -274,6 +275,19 @@ img {
 }
 /*-----AND TEAM-----*/
 
+/*-----CLIENTS-----*/
+.clients-title {
+    min-width: 264px;
+    height: 44px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
 /*-----FOOTER-----*/
 .footer {
     padding-top: 60px;
