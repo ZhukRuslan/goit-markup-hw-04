@@ -79,16 +79,6 @@ img {
 .navigation-list-item:not(:last-child) {
     margin-right: 50px;
 }
-.icoms {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin-left: auto;
-}
-.icoms-list:not(:last-child) {
-    margin-right: 30px;
-}
-
 .navigation-list-link {
     font-family: var(--text-font);;
     font-weight: 500;
@@ -101,7 +91,11 @@ img {
 .navigation-list-link:focus {
     color: var(--accent-color);
 }
-.email-link {
+.email-link,
+.tel-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     font-family: var(--text-font);
     font-weight: 500;
     font-size: 14px;
@@ -109,28 +103,28 @@ img {
     letter-spacing: 0.02em;
     color:#757575;
 }
-.email-link:hover {
-    color: var(--accent-color);
+.email-link:not(:last-child) {
+    margin-left: auto;
+    margin-right: 30px;
 }
 .icom-envelope {
     max-width: 16px;
     height: 12px;
-}
-.tel-link{
-    font-family: var(--text-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em; 
-    color:#757575;
-}
-.tel-link:hover {
-    color: var(--accent-color);
-}
+    margin-right: 10px;
+}   
 .icom-smartphone {
     width: 10px;
     height: 16px;
+    margin-right: 10px;
 }
+.email-link:hover,
+.email-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
 
 /*-----AND HEADER-----*/
 
@@ -191,10 +185,28 @@ img {
     display: flex;
     align-items: center;
 }
-.features-list-item:not(:last-child ) {
+.features-list-item:not(:last-child) {
     width: 270px;
     margin-right: 30px;
 }
+.features-link {
+    display: flex;
+    align-items: center;
+    max-width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.icom-antenna,
+.icom-clock,
+.icom-diagram,
+.icom-astronaut {
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px;
+}
+
 .features-title {
     font-family: var(--text-font);
     font-weight: 700;
@@ -243,13 +255,18 @@ img {
 /*-----AND ACTIVITY-----*/
 
 /*-----TEAM-----*/
-
+.team {
+    background: #F5F4FA;
+}
 .team-list {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
 }
 .team-list-item {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     margin: 15px;
     
 }
@@ -286,6 +303,35 @@ img {
 }
 .profeshional-name {
     text-align: center;
+}
+.social-list {
+    display: flex;
+    margin: 16px 32px 30px 32px;
+}
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.social-list-link:hover ,
+.social-list-link:focus  {
+    background-color: #2196F3;
+}
+.social-list-icom {
+    width: 20px;
+    height: 20px;
+    fill: #757575
+}
+.social-list-link:hover .social-list-icom ,
+.social-list-link:focus .social-list-icom {
+    fill: #ffffff;
 }
 /*-----AND TEAM-----*/
 
