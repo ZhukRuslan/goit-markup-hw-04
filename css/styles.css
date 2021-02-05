@@ -369,6 +369,7 @@ img {
 }
 .clients-list-item:hover,
 .clients-list-item:focus {
+    outline: none;
     border: 1px solid #2196F3;
 }
 
