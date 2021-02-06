@@ -477,10 +477,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-self: flex-start;
     width: 206px;
     height: 77px;
     margin-left: 70px;
-    margin-bottom: 85px;
 }
 .join-social-list {
     display: flex;
