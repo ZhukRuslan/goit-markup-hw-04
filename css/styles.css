@@ -196,6 +196,18 @@ p {
 .skills-list .skills-item:not(:last-child) {
   margin-right: 24px;
 }
+.icon-button-skills {
+  padding: 0;
+  border: none;
+  width: 264px;
+  height: 112px;
+  background-color: var(--button-bg-color);
+  border-radius: 4px;
+}
+.icom-skills {
+  width: 64px;
+  height: 64px;
+}
 
 .pro-title {
   margin-bottom: 8px;
