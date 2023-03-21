@@ -129,10 +129,22 @@ p {
 
 /* Hero */
 .section.hero {
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
   background-color: var(--main-title-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   margin-bottom: 48px;
@@ -184,6 +196,21 @@ p {
 .skills-list .skills-item:not(:last-child) {
   margin-right: 24px;
 }
+/* .skills-item {
+  background-size: 264px 112px;
+}
+.skills-item.strategy-icom {
+  background-image: url(../images/icon-strategy.svg);
+}
+.skills-item.punctuality-icom {
+  background-image: url(../images/icon-punctuality.svg);
+}
+.skills-item.diligence-icom {
+  background-image: url(../images/icon-diligence.svg);
+}
+.skills-item.technologies-icom {
+  background-image: url(../images/icon-technologies.svg);
+} */
 .pro-title {
   margin-bottom: 8px;
 
