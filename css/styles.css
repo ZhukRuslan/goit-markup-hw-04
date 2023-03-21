@@ -196,21 +196,7 @@ p {
 .skills-list .skills-item:not(:last-child) {
   margin-right: 24px;
 }
-/* .skills-item {
-  background-size: 264px 112px;
-}
-.skills-item.strategy-icom {
-  background-image: url(../images/icon-strategy.svg);
-}
-.skills-item.punctuality-icom {
-  background-image: url(../images/icon-punctuality.svg);
-}
-.skills-item.diligence-icom {
-  background-image: url(../images/icon-diligence.svg);
-}
-.skills-item.technologies-icom {
-  background-image: url(../images/icon-technologies.svg);
-} */
+
 .pro-title {
   margin-bottom: 8px;
 
