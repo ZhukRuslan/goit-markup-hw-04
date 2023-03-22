@@ -7,6 +7,7 @@
   --button-bg-color: #f4f4fd;
   --list-color: #404bbf;
   --color-line: #e7e9fc;
+  --color-icon: #8e8f99;
 }
 
 body {
@@ -198,6 +199,7 @@ p {
 }
 .icon-button-skills {
   padding: 0;
+  margin-bottom: 8px;
   border: none;
   width: 264px;
   height: 112px;
@@ -281,11 +283,66 @@ p {
 }
 .about-text {
   font-weight: 400;
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
 }
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background: var(--secondary-text-color);
+}
+.social-item {
+  padding-right: 24px;
+}
+.social-item:last-child {
+  padding-right: 0;
+}
+.social-icon {
+  width: 16px;
+  height: 16px;
+}
 
+/* Customers */
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--color-icon);
+  border-radius: 4px;
+}
+.customers-item {
+  margin-right: 24px;
+}
+.customers-item:last-child {
+  margin-right: 0;
+}
+.customers-icon {
+  width: 104px;
+  height: 56px;
+}
 /* Portfolio */
 .section.port-section {
   padding-top: 96px;
