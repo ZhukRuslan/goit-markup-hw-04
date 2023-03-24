@@ -8,6 +8,7 @@
   --list-color: #404bbf;
   --color-line: #e7e9fc;
   --color-icon: #8e8f99;
+  --second-fill-color: #31d0aa;
 }
 
 body {
@@ -176,6 +177,10 @@ p {
 
   cursor: pointer;
 }
+.btn:hover,
+.btn:focus {
+  background-color: var(--list-color);
+}
 
 /* Section skills */
 .section-title {
@@ -197,14 +202,17 @@ p {
 .skills-list .skills-item:not(:last-child) {
   margin-right: 24px;
 }
-.icon-button-skills {
-  padding: 0;
-  margin-bottom: 8px;
-  border: none;
+.icon-bl-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
-  background-color: var(--button-bg-color);
+  margin-bottom: 8px;
+  border: none;
   border-radius: 4px;
+
+  background-color: var(--button-bg-color);
 }
 .icom-skills {
   width: 64px;
@@ -258,6 +266,10 @@ p {
 }
 .team-list .team-item:not(:last-child) {
   margin-right: 24px;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--list-color);
 }
 .team-item {
   margin: 0;
@@ -333,8 +345,14 @@ p {
   align-items: center;
   width: 168px;
   height: 88px;
+  fill: var(--color-icon);
   border: 1px solid var(--color-icon);
   border-radius: 4px;
+}
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--list-color);
+  fill: var(--list-color);
 }
 .customers-item {
   margin-right: 24px;
@@ -403,7 +421,8 @@ p {
 .projects-item:nth-child(n + 6) {
   margin-bottom: 0;
 }
-.projects-item:hover {
+.about-link:hover,
+.about-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -417,7 +436,6 @@ p {
   border: 1px solid var(--color-line);
 }
 .works-title {
-  /* margin-top: 32px; */
   margin-bottom: 8px;
 
   color: var(--main-title-color);
@@ -429,8 +447,6 @@ p {
   text-align: left;
 }
 .pro-text {
-  /* margin-bottom: 32px; */
-
   color: var(--main-text-color);
 
   font-size: 16px;
@@ -464,14 +480,16 @@ p {
 .social-footer {
   display: flex;
   flex-direction: column;
-  padding-left: 120px;
+  margin-left: 120px;
 }
-.footer-title {
+.footer-social-title {
   margin-bottom: 16px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--main-background-color);
 }
 .social-footer-list {
@@ -494,7 +512,12 @@ p {
   height: 40px;
   border-radius: 50%;
   text-align: center;
+
   background-color: var(--main-text-color);
+}
+.social-footer-link:hover,
+.social-footer-link:focus {
+  background-color: var(--second-fill-color);
 }
 .social-footer-icon {
   width: 24px;
